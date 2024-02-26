@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jednoducha kalkulacka</title>
+</head>
+<body>
+    <h2>Jednoducha kalkulacka</h2>
+    <form action="calculator.php" method="post">
+        <input type="number" name="num1" placeholder="Zadej prvni cislo" required>
+        <select name="operator" required>
+            <option value="">Vyber operator</option>
+            <option value="+">Scitani (+)</option>
+            <option value="-">Odcitani (-)</option>
+            <option value="*">Nasobeni (*)</option>
+            <option value="/">Deleni (/)</option>
+        </select>
+        <input type="number" name="num2" placeholder="Zadej druhe cislo" required>
+        <button type="submit" name="calculate">Spocitej</button>
+    </form>
+</body>
+</html>
